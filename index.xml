@@ -13,7 +13,14 @@
       <pubDate>Sat, 19 Dec 2020 18:51:51 +0800</pubDate>
       
       <guid>https://lllyi.github.io/post/blog%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</guid>
-      <description>博客地址 https://lllyi.github.io 2020.12.18 - 已完成  完成brew源替换。 https://www.jianshu.com/p/b26c7bc14440 本地安装hugo，选择主题，在post文件下创建一个本地.md文档，能够在本地博客显示。 在GitHub上创建新仓库，并把hugo搭建的本地博客部署到GitHub上，利用了一些git的基本命令。 https://www.bilibili.com/video/BV1q4411i7gL  - 待做  学习git基本命令。 美化博客主页。 熟练上传博客文件。 熟悉Markdown文本编辑方式。  </description>
+      <description>博客地址 https://lllyi.github.io 2020.12.18 - 已完成   完成brew源替换。 https://www.jianshu.com/p/b26c7bc14440
+  本地安装hugo，选择主题，在post文件下创建一个本地.md文档，能够在本地博客显示。
+  在GitHub上创建新仓库，并把hugo搭建的本地博客部署到GitHub上，利用了一些git的基本命令。 https://www.bilibili.com/video/BV1q4411i7gL
+  - 待做   学习git基本命令。
+  美化博客主页。
+  熟练上传博客文档。
+  熟悉Markdown文本编辑方式。
+  - 更新步骤  到hugo搭建的博客所在文件夹 myblog 新建一个md文档或者完成对老文档的更新 新建： hugo new post/filename.md 输入命令 hugo &amp;ndash;theme=themename &amp;ndash;baseUrl=&amp;ldquo;https://lllyi.github.io&amp;rdquo; &amp;ndash;buildDrafts 把博客部署到远端GitHub仓库。  cd public 切换到之前部署到GitHub上后生成的public文件夹下 git add . git commit -m &amp;ldquo;yyyy/mm/dd-hh:mm&amp;rdquo; git push -u origin master    </description>
     </item>
     
     <item>
