@@ -20,7 +20,14 @@
   美化博客主页。
   熟练上传博客文档。
   熟悉Markdown文本编辑方式。
-  - 更新步骤  到hugo搭建的博客所在文件夹 myblog 新建一个md文档或者完成对老文档的更新 新建： hugo new post/filename.md 输入命令 hugo &amp;ndash;theme=themename &amp;ndash;baseUrl=&amp;ldquo;https://lllyi.github.io&amp;rdquo; &amp;ndash;buildDrafts 把博客部署到远端GitHub仓库。  cd public 切换到之前部署到GitHub上后生成的public文件夹下 git add . git commit -m &amp;ldquo;yyyy/mm/dd-hh:mm&amp;rdquo; git push -u origin master    </description>
+  - 更新步骤   到hugo搭建的博客所在文件夹 myblog
+  新建一个md文档或者完成对老文档的更新 新建： hugo new post/filename.md
+  输入命令 hugo &amp;ndash;theme=themename &amp;ndash;baseUrl=&amp;ldquo;https://lllyi.github.io&amp;rdquo; &amp;ndash;buildDrafts
+  把博客部署到远端GitHub仓库。
+cd public //切换到之前部署到GitHub上后生成的public文件夹下
+git add .
+git commit -m &amp;quot;yyyy/mm/dd-hh:mm&amp;quot;
+git push -u origin master</description>
     </item>
     
     <item>
