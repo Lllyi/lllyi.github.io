@@ -2,63 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://lllyi.github.io/post/</link>
+    <link>https//lllyi.github.io--buildDrafts/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 19 Dec 2020 20:57:34 +0800</lastBuildDate><atom:link href="https://lllyi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https//lllyi.github.io--buildDrafts/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown笔记</title>
-      <link>https://lllyi.github.io/post/markdown%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Sat, 19 Dec 2020 20:57:34 +0800</pubDate>
+      <title></title>
+      <link>https//lllyi.github.io--buildDrafts/post/java%E7%AC%94%E8%AE%B02021.01.01-01.10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lllyi.github.io/post/markdown%E7%AC%94%E8%AE%B0/</guid>
-      <description>Markdown基本语法笔记 1.字体 加粗字体 左右各* *斜体* 左右各一个* ***加粗斜体*** 左右各三个* ~~删除线~~ 左右各两个 ~
-2.引用  引用格式 用&amp;gt;来标注 通过控制&amp;gt;个数来控制缩进
-   两个&amp;gt;的效果
- 三个的效果
-   3.分割线 三个或者三个以上* 或者-
- 4.图片 ​	图片的alt就是现实在图片下的文字，相当于对图片内容的显示，图片title是图片的标题，当鼠标移动到图片上时显示的内容，title可以不加。
-​	本地图片测试。
-5.超链接 [超链接名](超链接地址 &amp;quot;超链接title&amp;quot;) title可以不加
-Google  Apple
-6.列表   无序列表
-无序列表用-+*均可
- 表内容      有序列表
-数字加点
- 这是第一条 第二条     列表嵌套  没搞明白    7.表格 表头|表头|表头 ---|:--:|---: 内容|内容|内容 内容|内容|内容 第二行分割表头和内容。 - 有一个就行，为了对齐，多加了几个 文字默认居左 -两边加：表示文字居中 -右边加：表示文字居右 注：原生的语法两边都要用 | 包起来。此处省略    姓名 技能 排行     刘备 哭 老大   关羽 打 老二   张飞 骂 老三    8.</description>
-    </item>
-    
-    <item>
-      <title>Blog搭建历程</title>
-      <link>https://lllyi.github.io/post/blog%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</link>
-      <pubDate>Sat, 19 Dec 2020 18:51:51 +0800</pubDate>
-      
-      <guid>https://lllyi.github.io/post/blog%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</guid>
-      <description>博客地址 https://lllyi.github.io 2020.12.18 - 已完成   完成brew源替换。 https://www.jianshu.com/p/b26c7bc14440
-  本地安装hugo，选择主题，在post文件下创建一个本地.md文档，能够在本地博客显示。
-  在GitHub上创建新仓库，并把hugo搭建的本地博客部署到GitHub上，利用了一些git的基本命令。 https://www.bilibili.com/video/BV1q4411i7gL
-  - 待做   学习git基本命令。
-  美化博客主页。
-  熟练上传博客文档。
-  熟悉Markdown文本编辑方式。
-  - 更新步骤   到hugo搭建的博客所在文件夹 myblog
-  新建一个md文档或者完成对老文档的更新 新建： hugo new post/filename.md
-  输入命令 hugo &amp;ndash;theme=themename &amp;ndash;baseUrl=&amp;ldquo;https://lllyi.github.io&amp;rdquo; &amp;ndash;buildDrafts
-  把博客部署到远端GitHub仓库。
-cd public //切换到之前部署到GitHub上后生成的public文件夹下
-git add .
-git commit -m &amp;quot;yyyy/mm/dd-hh:mm&amp;quot;
-git push -u origin master</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://lllyi.github.io/post/blog/</link>
-      <pubDate>Fri, 18 Dec 2020 23:06:49 +0800</pubDate>
-      
-      <guid>https://lllyi.github.io/post/blog/</guid>
-      <description>Hello World! it&amp;rsquo;s a new start.</description>
+      <guid>https//lllyi.github.io--buildDrafts/post/java%E7%AC%94%E8%AE%B02021.01.01-01.10/</guid>
+      <description>2021.01.02   常量-使用final关键字修饰的成员变量。
+ 代表常数，便于修改 增强程序可读性  Java常量名必须全大写。
+  局部变量使用时，必须先初始化；成员变量和静态变量可以不用进行初始化，他会有默认值。
+  基本数据类型存储在栈上，变量名指向具体数值；引用数据类型变量名指向存储对象的内存地址，在栈上，内存地址指向的对象存储在堆上。
+   2021.01.03   对于一条链表进行分聚操作时，可以考虑设置多条分支，最后整合分支，得到结果。
+  **例 leetcode.problems.T86 ** 对一条链表大于x和小于x的节点进行分隔，并保持相对位置
+ 设置两个头结点 smallHead和largeHead，通过遍历原链表，对应节点插入到新的链表中，最后合并两条链表，得到结果。
+⚠️头结点和尾结点的处理，smallHead和largeHead应设置为哑节点，即他们的指针指向链表的头结点，能够更好处理头结点为空的边界条件。
+     Integer.toBinaryString()方法，完成十进制到二进制的转化。
+     位运算符 作用（针对二进制数）     &amp;amp; 如果对应位都为1，则结果为1，否则为0   | 对应位都是0，则结果为0，否则为1   ^ 异或 对应位值相同，则结果为0，否则为1   ~ 按位去反 二进制数 0变1，1变0   &amp;laquo; 按位左移，左操作数按位左移右操作数指定的位数 8&amp;laquo;1 =16 左移一位相当于×2   &amp;raquo; 按位右移，左操作数按位右移右操作数指定的位数 8&amp;raquo;1 = 4 右移一位相当于/2   &amp;raquo;&amp;gt; 按位右移补零，左操作数的值按右操作数指定的位数右移，移动得到的空位补0    &amp;raquo; 和 &amp;raquo;&amp;gt;的区别：&amp;raquo; 带符号右移。正数右移高位补0，负数右移高位补1。</description>
     </item>
     
   </channel>
